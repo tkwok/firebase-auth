@@ -24,7 +24,7 @@ class SignUpForm extends Component {
           label="Please Enter Phone Number"
           value={this.state.phone}
           onChangeText={phone => this.setState({ phone })} />
-        <Button title="Submit" onPress={this.handleSubmit} />
+        <Button title="Submit" onPress={ this.handleSubmit } />
       </View>
     )
   };
